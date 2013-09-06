@@ -1,0 +1,18 @@
+#textContainer{ width:70%; margin: auto; text-align: left;}
+#textContainer h1{ color: #a8a9ab; margin-top: 0}
+#textContainer h2{ color: #1fb25a; margin: 0; padding:0; }
+.searchElement{ margin-top: 30px;}
+.searchElement p{ color:#666; margin: 5px; padding: 0; font-size: 14px;}
+input[type=text]{width: 200px; background: #e7e8e9; padding-top:4px; padding-bottom:4px; padding-left: 4px; border:0;}
+input[type=submit]{ width:25px; background: url(../img/recherche.png) no-repeat center, #e7e8e9; padding-top:4px; padding-bottom:4px; border:0;}
+::-webkit-input-placeholder ,:-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder{ color: black;}
+
+#textContainer form .cb{float: left; padding-right: 10px; padding-left: 10px;}
+#textContainer form .sep{border-right: 2px solid #999;}
+#textContainer form label{color: #666;font-size: 14px; float: right;}
+#textContainer form input[type=checkbox]{}
+
+#textContainer .searchElement a{color: #444;font-size: 12px;text-decoration: none;}
+#textContainer .searchElement hr{border: none;border-bottom: 1px dashed #999;}
+
+#textContainer p.msg-error{font-size: 12px; color: red;}

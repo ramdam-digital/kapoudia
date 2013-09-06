@@ -1,0 +1,5 @@
+@media screen and (max-width: 480px) {
+	#top #top-menu #menu ul li a{font-size:0px;}
+	nav{ width: 100%;text-align: center; top:230px;}
+	nav #reponsiveMenu{display:inline-block; position:static;}
+}

@@ -1,0 +1,23 @@
+#ethique{margin: auto; background: url('../img/ethique-bg.png') top no-repeat; padding: 100px; height: 490px;}
+#ethique h2{color: #FFF; font-size: 24px; font-weight: normal; text-decoration: none; margin: 0; padding: 0;}
+#ethique .description{color: #FFF;}
+
+.greenButton{width:20%; text-align: center; display:inline-block; color:white; padding-right:2%; padding-left:2%; vertical-align: top;margin-bottom:20px;}
+.greenButton img{display: inline-block; width:70%; height: auto; width: auto;}
+.greenButton h1{font-size: 17px; margin-top:10px;}
+.greenButton ul{list-style-type: none;}
+
+.greenButton p, .greenButton ul li{text-align: justify;}
+
+
+@media screen and (max-width: 768px){
+
+.greenButton{width:30%; text-align: center;  color:white; padding-right:4%; padding-left:4%; }
+
+}
+
+@media screen and (max-width: 480px){
+
+.greenButton{width:40%; text-align: center;  color:white; padding-right:4%; padding-left:4%; }
+
+}

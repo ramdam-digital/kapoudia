@@ -1,0 +1,36 @@
+#panierMenu{width:80%; height:50px; margin:auto; background: #e7e8e9; color:#a9abae;}
+.panierElement{ display:inline-block; width:calc(19% - 35px); height:50px;   line-height:50px; text-align:left; padding-left:35px; position: relative; background: #e7e8e9;}
+.panier{background:url(../img/panier2.png) no-repeat center left;}
+.connexion{background:url(../img/connexion.png) no-repeat center left;}
+.livraison{background:url(../img/livraison.png) no-repeat center left;}
+.paiment{background:url(../img/paiment.png) no-repeat center left;}
+.confirmation{background:url(../img/confirmation.png) no-repeat center left;}
+#panierMenu .active{font-weight: bold; color:#000;}
+
+#panierContainer{ width:80%; margin:auto;}
+
+#panierLeft{width:20%; float:left; text-align: left;}
+#panierLeft .leftElement{margin-top: 10px; border-top: 1px solid #eceded;}
+#panierLeft p{color: #000; font-size: 12px; margin: 0; padding: 0;}
+#panierLeft h3{font-size: 16px; margin: 5px; padding: 0;}
+
+#panierRight{width:79%; float:right; padding-top: 10px;}
+#panierRight table {width:100%; background: #eff0f1;}
+#panierRight table td{ border-top: 2px #dddee0 solid;}
+#panierRight table.noborder td{ border:none; text-align: left; padding: 10px;}
+#panierRight table span{  margin-left:  5px;}
+#panierRight table img{ margin: 10px 0 0 0; max-height:50px; }
+#panierRight table p{color: #000; font-size: 12px; margin: 0; padding: 0;}
+
+a.next_cart{color:#666; text-decoration: none;}
+
+@media screen and (max-width: 768px){
+
+#panierMenu .panierElement{font-size: 0px;}
+#panierLeft {display:none;}
+#panierRight {width:100%;}
+}
+
+@media screen and (max-width: 480px){
+	
+}

@@ -1,0 +1,177 @@
+.connexion{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 0 200px 0;
+	text-align: left;
+}
+
+
+.connexion .title{	
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+	padding-left: 15px;
+	color: #999;
+}
+
+
+.connexion hr{
+	width: 285px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	background-color: #000;
+	border: none;
+}
+
+.connexion .description{
+	color: #939598;
+	font-size: 14px;
+}
+
+.connexion label{
+	text-align: left;
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	width: 160px;
+	display: block;
+	float: left;
+}
+
+.connexion .text{
+	margin-left: 10px;
+	width: 240px;
+	background: #e7e7e7;
+	border: none;
+}
+
+.connexion .short{
+	width: 120px;
+}
+
+.connexion .btn{
+	width: 160px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	border: none;
+	padding: 3px;
+	font-weight: bold;
+}
+
+.connexion form{
+	margin-bottom: 40px;
+}
+
+
+
+/*general styles for all CSS Checkboxes*/
+input[type=checkbox].css-checkbox {
+	display:none;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:20px;
+	height:15px; 
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -15px;
+}
+
+input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+	padding-left:22px;
+    height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme{
+
+    background-position: 0 -16px;
+}
+
+.depressed{background-image:url(../img/depressed.png);}
+
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #e7e7e7 inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #e7e7e7 inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #e7e7e7 inset;
+    background: #e7e7e7;
+    color:#000;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    width: 220px;
+    font-weight: bold;
+}
+
+label.select {position:relative; width: 230px;}
+label.select:after {
+    content:'<>';
+    font:12px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:16px; top:4px;
+    padding:0 0 2px;
+    border-bottom:1px solid #666;
+    position:absolute;
+    pointer-events:none;
+    color: #666;
+}
+label.select:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    /*background:#f8f8f8;*/
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+
+#newAccount{
+	cursor: pointer;
+}
+
+#form-signup{
+	display: none;
+}
+
+form p.msg-error{
+	font-size: 12px;
+	color: red;
+}
+
+form p.msg-success{
+	font-size: 12px;
+	color: green;
+}

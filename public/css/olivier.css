@@ -1,0 +1,13 @@
+#olivier{height: 367px; width: 465px; background: url(../img/olivier.png) no-repeat; margin: auto; position: relative;}
+
+#olivier .ecologique{display:none;opacity: 0.9; background: url(../img/ecologique.png) no-repeat; height: 131px; width: 171px; position: absolute; top: 10px; left: 230px; text-align: center;}
+#olivier .ecologique span{display:none;color: #FFF; position: absolute; top:25px; right: 30px; width: 90px; font-weight: bold; font-family: "Ubuntu", sans-serif;}
+
+#olivier .adopter{display:none;opacity: 0.9; background: url(../img/adopter.png) no-repeat; height: 81px; width: 167px; position: absolute; top: 73px; left: -20px; text-align: center;}
+#olivier .adopter span{display:none;color: #FFF; position: absolute; top:15px; right: 60px; width: 90px; font-weight: bold; font-family: "Ubuntu", sans-serif;}
+
+#olivier .offrir{display:none;opacity: 0.9; background: url(../img/offrir.png) no-repeat; height: 107px; width: 127px; position: absolute; bottom: 60px; left: 80px; text-align: center;}
+#olivier .offrir span{display:none;color: #FFF; position: absolute; top:50px; right: 35px; width: 90px; font-weight: bold; font-family: "Ubuntu", sans-serif;}
+
+#olivier .visiter{display:none;opacity: 0.9; background: url(../img/visiter.png) no-repeat; height: 73px; width: 159px; position: absolute; bottom: 122px; right: 00px; text-align: center;}
+#olivier .visiter span{display:none;color: #FFF; position: absolute; top:20px; right: 15px; width: 90px; font-weight: bold; font-family: "Ubuntu", sans-serif;}

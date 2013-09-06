@@ -1,0 +1,72 @@
+#topPart{width:80%; margin: auto; margin-bottom:30px; position: relative;}
+#topPart div{display:inline-block; vertical-align: bottom;}
+#topPart{left:30px;}
+
+#thumb{width:10%;}
+#thumb img{width:100%; height:auto;}
+#thumb img:not(:first-of-type){display:none;}
+
+#description{width:40%; padding-left:40px; padding-top:50px;}
+#description h1{margin-bottom:20px;}
+#description h2{font-size: 15px; color:#808285;}
+#description p{margin-bottom: 20px; color:#000;}
+
+#detaille{width:35%; padding-left: 30px;}
+#prix{width:100%; font-size: 70px; text-align: center;}
+#prix ul{list-style-type: none;}
+#prix li:not(:first-of-type){display:none;} 
+#prix li{text-align: right; font-size: 48px;} 
+#prix li span{font-size: 36px; text-align: right; display: block;} 
+#prix li span.size{font-size: 32px; text-align: center; display: block;} 
+#nbr{text-align:center; width:100%;}
+#nbr div{display:inline-block; margin-right:20px;}
+#nbr div.label{display:block;}
+
+#bottomPart{width:80%; margin:auto; border:1px solid black; padding-bottom:4px; position:relative;}
+#bottomPart div{display: inline-block;}
+
+#bottomLeft{width:65%;  margin:auto; padding-left:2.5%; padding-top:30px; font-size:14px;}
+#bottomLeft h1{color:#38ba6c;margin-bottom:20px; }
+#bottomLeft p{ margin-bottom:30px; color:#000;}
+
+#bottomRight{width:30%; position:absolute; right:0; }
+#bottomRight h3{color:#38ba6c; font-size: 14px; padding: 5px; margin: 0;}
+#bottomRight span{color: #000; font-size: 14px; margin-left:45px; padding: 0 5px;}
+#bottomRight div{width:100%; margin-bottom:30px;}
+#bottomRight div#region{min-height:60px;  text-indent:45px; padding-top: 10px; background:url(../img/region.png) no-repeat center left, #e7e7e8;}
+#bottomRight div#variete{min-height:60px;  text-indent:45px; padding-top: 10px; background:url(../img/variete.png) no-repeat center left, #e7e7e8;}
+#bottomRight div#degustation{min-height:60px;  text-indent:45px; padding-top: 10px; background:url(../img/degustation.png) no-repeat center left, #e7e7e8;}
+#bottomRight div#vote{min-height:60px;  text-indent:45px; padding-top: 10px; background:url(../img/vote.png) no-repeat center left, #e7e7e8;}
+#bottomRight div#remporter{min-height:60px;  text-indent:45px; padding-top: 10px; background:url(../img/prix.png) no-repeat center left, #e7e7e8; }
+
+
+#detaille form{width:100%; margin-top:40px;}
+#detaille label{display:inline-block; width:30%; height:25px; line-height: 25px; text-align: right; margin-top:10px;}
+#detaille select{width:65%; height:25px; border:none; background: #e7e8e9; margin-top:10px;}
+#detaille input[type=button], input[type=submit], input[type=text]{border:none;}
+#detaille input[type=text]{width:25%; height:25px; background: #e7e8e9;}
+#detaille input[type=submit]{width:20%; height:25px; background: #ed1c24; border-radius: 4px; color:white;}
+#detaille input[type=button]{width:8%; height:26px;}
+
+#next{position:absolute; top:200px; right:0; cursor:pointer;}
+#prev{position:absolute; top:200px; left:-60px; cursor:pointer;}
+
+#quantite{padding-left: 5px;}
+#detaille #panier-msg{ padding: 10px; width: 100%; background: #f5f5f5; margin-top: 10px; text-align: center;	display: none;}
+#panier-msg a{color: #666; text-decoration: none;}
+
+@media screen and (max-width: 768px){
+	#detaille{width:80%; margin:auto; margin-top: 20px; padding-top: 20px; border-top:1px solid gray;}
+	#prix{ font-size: 40px;}
+	#description{ width:70%;}
+	
+
+}
+
+@media screen and (max-width: 480px){
+	#thumb{width:80%; text-align: center;}
+	#thumb img{width:20%;}
+	#description{ width:80%; padding-left:10px;}
+	#detaille{padding-left: 0;}
+
+}

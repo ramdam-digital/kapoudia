@@ -1,0 +1,47 @@
+#contentTop, #contentBottom{width:75%; height:auto; margin:auto;}
+#contentTop img, #contentBottom img{width:100%; margin:0; padding: 0;}
+#content{width:75.2%; height:auto; margin:auto; margin-top:-5px; background:url(../img/corpBg.png) repeat-y 0 0; background-size:contain;}
+
+#textWrapper{ width:90%; margin:auto; text-align:left;}
+h1{ width:100%; min-height:60px; line-height: 60px; clear:both; margin: 0; padding: 0;}
+.essential{background: url(../img/degustationHeader.png) no-repeat right center;}
+.bottom{margin-top:40px;}
+h2{ height:30px; padding-left:45px; margin-top:30px; line-height:30px;  font-size:18px; color:#1fb25a;}
+h2.true{background:url(../img/tick.png) no-repeat left center;}
+h2.false{background:url(../img/croit.png) no-repeat left center;}
+p{margin-top:10px;}
+
+#content ul{ margin: 0; padding: 0; margin-top: -25px}
+
+ul.menuB{list-style: none; float:left;}
+ul.menuB li{display:inline-block; width:70px; padding-top:70px; margin-left: 15px; margin-top:20px; text-align:center; cursor: pointer;}
+#fruite{background:url(../img/fruite.png) no-repeat center top;}
+#amer{background:url(../img/amertume.png) no-repeat center top;}
+#piquant{background:url(../img/piquant.png) no-repeat center top;}
+#chome{background:url(../img/chome.png) no-repeat center top;}
+#moisissure{background:url(../img/moisissure.png) no-repeat center top;}
+#vineux{background:url(../img/vineux.png) no-repeat center top;}
+p.detaille{ padding-left: 300px;}
+
+ul.menuC{display:inline-block; width:100%; text-align:center;}
+ul.menuC li{display:inline-block; width:16%; padding-top:70px; margin-top:20px; text-align:center; vertical-align: top; cursor: pointer;}
+#tasting{background:url(../img/testing.png) no-repeat center top;}
+#coup{background:url(../img/coupe.png) no-repeat center top;}
+#temperature{background:url(../img/temperature.png) no-repeat center top;}
+#digest{background:url(../img/procedure.png) no-repeat center top;}
+#classification{background:url(../img/classification.png) no-repeat center top;}
+
+p.end{margin-top:20px; margin: 0; padding: 0; padding-top: 20px;}
+
+#content p{color:#000;}
+
+@media only screen and (max-device-width: 768px){
+ul.menuB{width:100%; text-align: center; margin-top: 20px; margin-bottom: 20px;}
+p.detaille{clear:both; padding-left:0; }
+.essential{padding-top: 60px; background: url(../img/degustationHeader.png) no-repeat center 10px; text-align: center;}
+
+}
+
+@media only screen and (max-device-width: 480px){
+
+}

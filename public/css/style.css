@@ -1,0 +1,94 @@
+@import url("typo.css");
+
+.clear{clear: both;}
+
+body{background: #e7e8e9; margin: 0; padding: 0; text-align: center; font-family: "Cabin", sans-serif;}
+
+header{margin: 0; padding: 0; border-top: 15px solid #000;}
+#top{width: 1024px; height: 240px; margin: auto; position: relative;}
+#top .logo{position: absolute; left: 0; top: 20px; margin: 0; padding: 0;}
+#top #top-menu{position: absolute; right: 0; top: 0; margin: 0; padding: 0; height: 30px; line-height: 30px;}
+#top #top-menu #lang{float: left; color: #808285; font-size: 12px;}
+#top #top-menu #lang a{color: #808285; font-size: 12px; text-decoration: none;}
+#top #top-menu #lang a:hover{color: #444;}
+#top #top-menu #menu{float: left; background: #d1d2d4; height: 24px; padding: 3px 12px; margin: 0 0 0 10px; -moz-border-radius-bottomright: 15px 15px; border-bottom-right-radius: 15px 15px; -moz-border-radius-bottomleft: 15px 15px; border-bottom-left-radius: 15px 15px; line-height: 20px;}
+#top #top-menu #menu ul{list-style: none; display: inline; margin: 0; padding: 0;}
+#top #top-menu #menu ul li{display: inline; color: #808285; font-size: 12px; padding: 0 5px; border-right: 1px solid #AAA;}
+#top #top-menu #menu ul li.last{border: none;}
+#top #top-menu #menu ul li a{color: #808285; font-size: 12px; text-decoration: none;}
+#top #top-menu #menu ul li a:hover{color: #444;}
+
+#acces_pro {height: 41px; width: 126px; position: absolute; top: 60px; right: 0px; background: url(../img/pro_shadow.png) no-repeat; line-height: 39px; }
+#acces_pro a{color: #FFF; font-size: 14px; text-decoration: none; margin-right: 3px;}
+
+nav{position: absolute; right: 0; bottom: 85px; margin: 0; padding: 0;}
+nav ul{list-style: none; display: inline; margin: 0; padding: 0;}
+nav ul li{display: inline; color: #808285; font-size: 12px; padding: 0 0 0 15px; position: relative;}
+nav ul li a{font-family: "Ubuntu", sans-serif; color: #818285; font-size: 18px; text-decoration: none;}
+nav ul li a:hover{color: #1fb25a; border-bottom: 1px solid #999;}
+nav ul li a.current{color: #1fb25a; border-bottom: 1px solid #999;}
+nav ul li ul.submenu{padding: 0; margin: 0; list-style: none; position: absolute; left: 5px; top:20px; display: none;}
+nav ul li ul.submenu li{text-align: left; display: block; margin: 5px 0; width: 120px;}
+nav ul li ul.submenu li a{color: #818285; font-size: 12px; text-decoration: none; font-family: "Cabin", sans-serif;}
+nav ul li ul.submenu li a:hover{text-decoration: underline; border-bottom: none;}
+nav ul li ul.submenu li a.current{text-decoration: underline; border-bottom: none; font-weight: bold;}
+nav #reponsiveMenu{display:none;}
+
+section{margin: 0; padding: 0;}
+
+#limiter{width: 1024px;	margin: auto; text-align: left;}
+#limiter .left{float: left; width: 480px;}
+#limiter .right{float: right; width: 480px;}
+
+#white-head{margin: 0 auto; background: url(../img/white-hbg.gif) center top no-repeat; height: 113px;}
+#white{margin: 0 auto; background: url(../img/white-bg.gif) center top repeat-y;}
+
+#wood-head{margin: 0 auto; background: url(../img/wood-hbg.png) center top no-repeat; height: 102px;}
+#wood{margin: auto; background: url(../img/wood-bg.gif) top repeat-y; padding-bottom: 240px; padding-top: 20px;}
+
+#sky-head{margin: 0 auto; background: url(../img/sky-hbg.png) center top no-repeat; height: 102px;}
+#sky{margin: auto; background: url(../img/sky-bg.png) top repeat-y; padding-bottom: 240px; padding-top: 20px;}
+
+
+#slider{width: 70%;  margin: auto; text-align: left; padding: 0 0 0 0;position: relative; overflow: hidden;}
+#slides{overflow:hidden;  position: relative; width:100%;}
+#slides ul{position: relative; left: 0; top: 0; list-style: none; margin: 0; padding: 0;}
+#slides li{ width: 100%;  float: left; position: relative;}
+#slider .left{left: 0; top: 40%; position: absolute; cursor: pointer; z-index: 1000;}
+#slider .right{right: 0; top: 40%; position: absolute; cursor: pointer; z-index: 1000;}
+#slider ul li img{width: 100%;}
+
+#sliderpage{width: 446px; height: 404px; background: url(../img/sliderpage.png) no-repeat; float: right; position: relative;}
+#sliderpage .slide{margin: 0; padding: 0;position: absolute; left:25px; top: 85px;}
+
+h2.title{color:white;}
+
+#wrapper{ width: 1024px; margin: auto; text-align: left; padding: 100px 0 0 0;}
+
+footer{margin: 0; padding: 0;}
+
+#footer{margin: auto; background: url(../img/footer.png) center top no-repeat; margin-top: -180px; overflow: hidden; padding: 90px 0 0 0;}
+#footer #container{width: 1024px; margin: auto; height: 200px;}
+#footer #container .left{ float: left; width: 850px; height: 200px;}
+#footer #container .right{ float: right; width: 160px; height: 200px;}
+#footer table.tab{width: 100%; border: none; border-right: 2px solid #737070;}
+#footer table.tab td{text-align: left; color: #FFF;vertical-align: top;}
+#footer table.tab td ul{padding: 0 0 0 15px; margin: 0;}
+#footer table.tab td ul li a{text-decoration: none; color: #FFF;}
+#footer table.tab th{text-align: left; color: #26a057; font-family: "Ubuntu", sans-serif; font-size: 18px;}
+#footer table.social{width: 100%; border: none;}
+#footer table.social td{text-align: left; color: #FFF;}
+#footer table.social td ul{padding: 0 0 0 15px; margin: 0;}
+#footer table.social td ul li a{text-decoration: none; color: #FFF;}
+#footer table.social th{text-align: left; color: #737070; font-family: "Ubuntu", sans-serif; font-size: 18px;}
+#footer ul.socials{list-style: none; padding: 0; margin: 0;}
+#footer ul.socials img{float: left; margin: 0 5px 0 0; padding: 4px 0 0 0; border: none;}
+#footer a{ font-size: 14px; color: #fff; text-decoration: none;}
+
+#copyright{background: #000; width: 100%; height: 35px; text-align: center; font-size: 12px;}
+#copyright .box{width: 1024px; height: 35px; margin: 0 auto;}
+#copyright .box .copy{float: left; color: #a7a9ac; line-height: 35px;}
+#copyright .box .ramdam{float: right; line-height: 35px;}
+#copyright .box .ramdam img{ margin: 0; padding: 0;margin-top: 5px;float: right;}
+
+

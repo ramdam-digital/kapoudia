@@ -1,0 +1,16 @@
+#sky{padding-bottom: 0;}
+
+#textContainer{ width:70%; margin: auto; margin-bottom: -110px; text-align: left; padding-bottom:370px; background: url(../slides/oliveBanner.png) no-repeat center bottom;}
+#skyHeader{background: url(../img/sky-hbg.png) no-repeat center;}
+#textContainer h1{ color: white; margin-top: 0; font-size: 35px;}
+#textContainer h2.title{ color: #1fb25a;}
+#textContainer p{ color: #666; font-size: 14px;}
+
+
+@media only screen and (max-device-width: 768px) {
+  #textContainer{padding-bottom:250px; background: url(../slides/oliveBannerTablet.png) no-repeat center bottom;}
+}
+
+@media only screen and (max-device-width: 480px) {
+  #textContainer{padding-bottom:150px; background: url(../slides/oliveBannerPhone.png) no-repeat center bottom;}
+}

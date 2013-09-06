@@ -1,0 +1,19 @@
+h1{width:70%; margin:auto; text-align:left;}
+.article{width:70%; margin:auto; position:relative; min-height:100px; margin-bottom: 20px; padding-top: 20px; border-top: 4px solid #5f5552;}
+.article:first-of-type{border-top:none;}
+.article img, .article div{display: inline-block;}
+.article img{position:absolute; left:0;}
+.article div{display: inline-block; margin-left:250px; text-align: justify; color: #000;}
+.article div h3{color: #26a057; margin: 0; padding: 0; font-size: 18px;}
+.article div p.date{font-size: 13px; color: #AAA; margin: 0; padding: 0; text-align: justify;font-weight: bold;} 
+.article div p{color: #000; margin: 0; padding: 0; text-align: justify;} 
+
+@media only screen and (max-device-width: 768px){
+	.article{text-align:center;}
+	.article img{position:static;}
+	.article div{ margin-left:10px; margin-right:10px;}
+}
+
+@media only screen and (max-device-width: 480px){
+
+}

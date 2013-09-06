@@ -1,0 +1,14 @@
+.scroll-large{ width: 1024px; text-align: left;}
+.scroll-large .viewport { width: 994px; height: 400px; overflow: hidden; position: relative; }
+
+.scroll-left{ width: 480px; text-align: left;}
+.scroll-left .viewport { width: 450px; height: 320px; overflow: hidden; position: relative; }
+
+.scroll { margin: 0 auto; margin-top: 30px;  }
+.scroll .overview { list-style: none; position: absolute; left: 10px; top: 0; padding: 0; margin: 0; }
+.scroll .overview p{ margin: 0; padding: 0; margin-bottom: 10px; font-size: 14px; text-align: justify;} 
+.scroll .scrollbar{ background: #CCC; position: relative; background-position: 0 0; float: left; width: 2px; }
+.scroll .thumb { background: #444; height: 5px; width: 4px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -1px; -moz-border-radius: 10px; border-radius: 10px;}
+.scroll .thumb_white{background: #FFF;}
+.scroll .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

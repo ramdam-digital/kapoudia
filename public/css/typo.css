@@ -1,0 +1,16 @@
+.center{text-align: center;}
+
+.margin_top20{margin-top: 20px;}
+.margin_top15{margin-top: 15px;}
+.margin_top10{margin-top: 10px;}
+
+.margin_bottom20{margin-bottom: 20px;}
+.margin_bottom15{margin-bottom: 15px;}
+.margin_bottom10{margin-bottom: 10px;}
+
+p{color: #fff;}
+.white{color: #fff}
+
+h2.title{margin: 0; padding:15px; text-align: left; color: #1fb25a;}
+.btn{ width: 160px;	background: #000; color: #FFF; text-align: center; border: none; padding: 3px; font-weight: bold; }
+

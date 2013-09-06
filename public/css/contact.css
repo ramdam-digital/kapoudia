@@ -1,0 +1,55 @@
+#limiter .contact{width: 100%}
+
+#limiter .contact .left{float: left; width: 35%; text-align: left;}
+
+#limiter .contact .right{float: right; width: 60%; padding-top: 10px;}
+
+#limiter .contact .right #map{height: 360px; border: 2px solid #999; width: 100%; margin: 0 auto;}
+
+#limiter .contact form p.msg-error{
+	font-size: 12px;
+	color: red;
+}
+
+#limiter .contact form p.msg-success{
+	font-size: 12px;
+	color: green;
+}
+
+.contact form{
+	margin: 0;
+}
+
+.contact form label{
+	text-align:left;
+	color:#000;
+	font-size:14px;
+	line-height:24px;
+	font-weight:bold;
+	width: 60px;
+    display: block;
+    float: left;
+}
+
+.contact form textarea{
+	margin-left:10px;
+	width: 240px;
+	height:120px;
+	border: 0;
+	background: #e7e8e9;
+}
+
+input[type=text] {
+	width: 240px;
+	background: #e7e8e9;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	border: 0;
+	margin-left:10px;
+}
+
+.contact h2{margin: 0; padding:15px; text-align: left; color: #1fb25a;}
+
+.infobulle{width:400px;}
+.infobulle p{color: #444; font-size: 12px;}
